@@ -38,6 +38,10 @@ dependencies:
   flutter_gemini: ^2.0.4
   dash_chat_2: ^0.0.21
   image_picker: ^1.1.2
+  flutter_launcher_icons: ^0.13.1
+  shared_preferences: ^2.3.4
+  flutter_tts: ^4.2.1
+  speech_to_text: ^7.0.0
 
 dev_dependencies:
   flutter_test:
@@ -90,3 +94,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/bot.jpg"
+  min_sdk_android: 21
